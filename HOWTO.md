@@ -51,7 +51,7 @@ I decided to build directly instead downloading direct from website (http://momo
 
     $ sudo su - momo
     $ cd ~/src
-    $ git clone https://github.com/lazyboozer/momo.git
+    $ git clone https://github.com/momopay/momo.git
     $ cd momo
     $ sudo bash autogen.sh
     $ sudo bash configure CPPFLAGS="-I/usr/local/BerkeleyDB.4.8/include -O2" LDFLAGS="-L/usr/local/BerkeleyDB.4.8/lib"
